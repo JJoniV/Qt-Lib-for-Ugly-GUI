@@ -11,7 +11,7 @@ public:
     int x2 = 0, y2 = 25;
     int absoulteX = 0, absoulteY = 0;
     QPoint mouseCordinatesInsideWidget; /* you need this so your labelwidget doesnt move to make your mouse always stay topleft making
-    it look ugly but stays where you clicked (if you clicked in the middle your mouse stays in the middle) you calculater absolute positions - relative position
+    it look ugly but stays where you clicked (if you clicked in the middle your mouse stays in the middle) you calculate the absolute positions - relative position
     (x and y of the mouse inside the main window - x and y of the mouse inside the the widget) */
     QString label;
     explicit BookBarLabelsForOpendBooks(QWidget *parent = nullptr,QString label = NULL);
