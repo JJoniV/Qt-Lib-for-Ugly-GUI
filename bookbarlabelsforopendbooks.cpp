@@ -82,10 +82,10 @@ void BookBarLabelsForOpendBooks::mouseMoveEvent(QMouseEvent *event)
     qInfo() << "Inside the widget" << "x: " << p1.x() << "y: " << p1.y();
     fillLabel = true;
     if(holdingLeftMouse){
-        absoulteX = ParentsCoordinates.x() - mouseCordinatesInsideWidget.x();
-        absoulteY = ParentsCoordinates.y() - mouseCordinatesInsideWidget.y();
-        x1 = absoulteX;
-        y1 = absoulteY;
+        absoluteX = ParentsCoordinates.x() - mouseCordinatesInsideWidget.x();
+        absoluteY = ParentsCoordinates.y() - mouseCordinatesInsideWidget.y();
+        x1 = absoluteX;
+        y1 = absoluteY;
         repaint();
     }
 
