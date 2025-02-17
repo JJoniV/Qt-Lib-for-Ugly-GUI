@@ -1,5 +1,13 @@
 #include <stdio.h>
 	int main(){
-		prinf("Hello");
-	return 0;
+		int n=0,m=1;
+		for(int i = 0; i < 10; i++){
+			printf("%d\n",n);
+			int temp = n;
+			n = m;
+			m += temp;
+		}
+			
+		printf("Hello");
+		return 0;
 	}
